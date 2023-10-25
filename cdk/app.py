@@ -5,7 +5,7 @@ import os
 import aws_cdk as cdk
 from aws_cdk import (
     # Duration,
-    App, CfnOutput, Stack, Environment, Fn,
+    App, CfnOutput, Stack, Environment, Fn, Tags,
     aws_ec2 as ec2,
     aws_ecs as ecs,
     aws_iam as iam,
